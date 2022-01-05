@@ -36,5 +36,7 @@ palhash2: 0.011713399999999985 4985
 ```
 
 Hardware:
+
 CPU: Ryzen5 1600
+
 RAM: 16G 2400 MHz single slot
