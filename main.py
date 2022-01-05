@@ -37,7 +37,7 @@ class palindrome_solver:
 
     def __init__(self, stringlength):
         memory = [self.generate(stringlength) for i in range(10000)]
-        print("palnum: {}/{}".format(self.palnum, stringlength))
+        print("palnum: {}/{}\nstringlength: {}".format(self.palnum, len(memory), stringlength))
 
         counter = 0
         starttime = time.perf_counter()
@@ -68,4 +68,3 @@ class palindrome_solver:
         return
 
 palindrome_solver(1000)
-    
